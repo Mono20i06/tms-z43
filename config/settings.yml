@@ -16,6 +16,7 @@ default:
   MODE_PROFILING: false
   PORT: -1
   PROJECT_NAME: ""
+  SECRET_KEY: ""
   SENTRY_DSN: ""
   TEMPLATE_ENGINE: "Django"
   VENV_SYNTHETIC: false
