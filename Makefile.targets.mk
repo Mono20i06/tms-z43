@@ -32,8 +32,8 @@ release: db data
 
 .PHONY: sh
 sh:
-	$(call log, starting Python shell)
-	$(RUN) ipython
+	$(call log, starting shell)
+	$(RUN) shell
 
 
 .PHONY: venv
